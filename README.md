@@ -5,6 +5,7 @@
 
           npm create vite@latest
 ''''''''
+
 2.Configured Tailwind Css: 
 
 '''''''
@@ -24,24 +25,24 @@
             plugins: [],
             }
 
-           3.index.css
+        3.index.css
            @tailwind base;
             @tailwind components;
             @tailwind utilities; 
 '''''''
 
-##Features
+#Features
 
->>Login/Sign Up
+Login/Sign Up
     -Sign In/Sign up form
     - redirect to Browse Page
->>Browse (after authentication )
+Browse (after authentication )
     - Header
     - Main Movie
         -Trailer in Background
         -Title & Description
         - MovieSuggestion and MovieLists*N
->>NetflixGPT
+NetflixGPT
      -Search Bar
      - Movie Suggestions
 
