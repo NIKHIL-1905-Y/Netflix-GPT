@@ -1,6 +1,7 @@
-#Netflix GPT
+# Netflix GPT
 
 1.Create React App using:
+
 ''''''''
 
           npm create vite@latest
@@ -11,8 +12,8 @@
 '''''''
 
        1.   npm install -D tailwindcss postcss autoprefixer
-          npx tailwindcss init -p
-        2.  tailwind.config.js: 
+            npx tailwindcss init -p
+       2.  tailwind.config.js: 
         /** @type {import('tailwindcss').Config} */
             export default {
             content: [
@@ -25,24 +26,23 @@
             plugins: [],
             }
 
-        3.index.css
+       3.index.css
            @tailwind base;
             @tailwind components;
             @tailwind utilities; 
 '''''''
 
-#Features
-
-Login/Sign Up
-    -Sign In/Sign up form
+# Features
+- Login/Sign Up
+    - Sign In/Sign up form
     - redirect to Browse Page
-Browse (after authentication )
+- Browse (after authentication )
     - Header
     - Main Movie
-        -Trailer in Background
-        -Title & Description
+        - Trailer in Background
+        - Title & Description
         - MovieSuggestion and MovieLists*N
-NetflixGPT
-     -Search Bar
+- NetflixGPT
+     - Search Bar
      - Movie Suggestions
 
